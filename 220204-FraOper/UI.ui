@@ -252,7 +252,7 @@
      <x>169</x>
      <y>179</y>
      <width>171</width>
-     <height>81</height>
+     <height>93</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -271,7 +271,7 @@
       <item>
        <widget class="QPushButton" name="pushButton_10">
         <property name="text">
-         <string>PushButton</string>
+         <string>复制</string>
         </property>
        </widget>
       </item>
