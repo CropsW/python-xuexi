@@ -34,6 +34,10 @@
   <property name="windowTitle">
    <string>分数运算器</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/JacyAldrich/Downloads/分数.svg</normaloff>C:/Users/JacyAldrich/Downloads/分数.svg</iconset>
+  </property>
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
@@ -252,7 +256,7 @@
      <x>169</x>
      <y>179</y>
      <width>171</width>
-     <height>93</height>
+     <height>81</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -266,7 +270,21 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QTextBrowser" name="result"/>
+       <widget class="QLineEdit" name="result">
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton_10">
